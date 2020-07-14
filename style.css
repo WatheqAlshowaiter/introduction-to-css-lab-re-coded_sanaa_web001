@@ -7,15 +7,33 @@ body {
 /* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
 div {
   /* Your code here! */
+  width: 700px;
+  margin: auto; 
+  font-family: "Helvetica Neue";
+  background-color: white;
+  padding: 30px;
 }
 
 /* ID selector to select the element with id 'main-header' */
 #main-header {
   /* Your code here! */
   color:red;
+  
 }
 
 /* Class selector to select elements containing the class 'perspective-questions' */
 .perspective-questions {
   /* Your code here! */
 }
+
+
+/*
+- Set the `<div>` element's:
+  - `width` to `700px`
+  - `margin` to `auto` (centers our element)
+  - `font-family` to `"Helvetica Neue"`
+  - `background` to `white`
+  - `padding` to `30px` (creates an invisible space around the element)
+- Set the element with the id of `#main-header` to a `font-size` of `22px`
+- Set the elements with the class of `.perspective-questions` to a `font-style` of `italic`
+*/
